@@ -5,28 +5,33 @@
 // the desired result. To check your work, run this
 // file in your Terminal.
 
-var foods = {
-  apples: 23, 
-  grapes: 507, 
-  eggs: 48
-}
+// var foods = {
+//   apples: 23, 
+//   grapes: 507, 
+//   eggs: 48,
+//   bacon: 24
+// };
 
-// Write code that prints all of the 'keys' of the foods variable 
-// you created above:
-// YOUR CODE HERE
+// // Write code that prints all of the 'keys' of the foods variable 
+// // you created above:
+// // YOUR CODE HERE
+// console.log (Object.keys(foods))
 
-// Write code that prints all of the 'values' of the foods variable 
-// you created above:
-// YOUR CODE HERE
 
-// Write code that prints the value of the second food of the foods variable 
-// you created above:
-// YOUR CODE HERE
+// // Write code that prints all of the 'values' of the foods variable 
+// // you created above:
+// // YOUR CODE HERE
+// console.log (Object.values(foods))
 
-// Write code that adds a food to the foods object. 
-// Then, print the updated object:
-// YOUR CODE HERE
+// // Write code that prints the value of the second food of the foods variable 
+// // you created above:
+// // YOUR CODE HERE
+// console.log (foods.grapes)
 
+// // Write code that adds a food to the foods object. 
+// // Then, print the updated object:
+// // YOUR CODE HERE
+// console.log (Object.keys(foods))
 
 // -------------------
 // Part 2: Email
@@ -41,14 +46,24 @@ var foods = {
 
 // Write code that logs your email object to the terminal.
 
+// var email = {
+//   sender: "Dory",
+//   subject: "Help Me",
+//   body: "I cannot find you",
+//   time: "11/21/23 4:00pm",
+//   isRead: true
+// }
+
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
 // YOUR CODE HERE
+// console.log (Object.keys(email))
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
 // YOUR CODE HERE
+// console.log (Object.values(email))
 
 
 // -------------------
@@ -86,8 +101,8 @@ posts = [
   }
 ];
 
-console.log(posts);
-console.log(posts[0]);
+// console.log(posts);
+// console.log(posts[1]);
 
 
 // The code snippet above shows an Array with 2 elements. Each element in the Array is a 
@@ -99,3 +114,33 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var email = ["GMail", "Yahoo", "Hotmail"]
+
+
+email = [
+{
+  sender: "Dory",
+  subject: "Help Me",
+  body: "I cannot find you",
+  time: "11/21/23 4:00pm",
+  isRead: true
+},
+{
+  sender: "Nemo",
+  subject: "Where are you",
+  body: "Send me coordinates",
+  time: "11/21/23 4:10pm",
+  isRead: true
+},
+{
+  sender: "Sharkbait",
+  subject: "Ooo Ah Ah",
+  body: "....",
+  time: "11/21/23 4:20pm",
+  isRead: true
+}
+]
+
+
+console.log (email)
